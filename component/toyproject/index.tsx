@@ -5,15 +5,15 @@ import { EmptyRowCol } from '../common';
 import { CommonRows } from '../common/CommonRow';
 import { IRow } from '../common/IRow';
 import Util from '../common/Util';
-import { IEtc } from './IEtc';
+import { IToyProject } from './IToyProject';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 
-type Payload = IEtc.Payload;
-type Item = IEtc.Item;
+type Payload = IToyProject.Payload;
+type Item = IToyProject.Item;
 
-export const Etc = {
+export const ToyProject = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
-    return PreProcessingComponent<IEtc.Payload>({
+    return PreProcessingComponent<IToyProject.Payload>({
       payload,
       component: Component,
     });
@@ -22,7 +22,7 @@ export const Etc = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="ETC">
+    <CommonSection title="TOY PROJECT">
       <EducationRow payload={payload} />
     </CommonSection>
   );

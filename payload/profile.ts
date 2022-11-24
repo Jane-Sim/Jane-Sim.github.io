@@ -1,22 +1,21 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faGithub, faDev } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
   disable: false,
 
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '심세영',
+    small: '(jane Sim)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'ssiox3@gmail.com',
+      link: 'mailto:ssiox3@gmail.com',
       icon: faEnvelope,
     },
     {
@@ -25,23 +24,18 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/Jane-Sim',
+      link: 'https://github.com/Jane-Sim',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'https://janesim.notion.site',
+      link: 'https://janesim.notion.site/sim-kkong-39878eb6c4fd4bf09979cf19250cec98',
+      icon: faDev,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: '휴대전화가 아닌 이메일로 연락 부탁드립니다.',
     icon: faBell,
   },
 };

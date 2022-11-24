@@ -5,16 +5,22 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'Foo University',
-      subTitle: 'Bar Major Bachelor',
-      startedAt: '2010-03',
-      // endedAt: '2010-02',
+      title: '협성대학교',
+      subTitle: '경영학과 졸업',
+      startedAt: '2015-03',
+      endedAt: '2017-08',
     },
     {
-      title: 'Foo High School',
-      subTitle: 'Graduated',
-      startedAt: '2007-03',
-      endedAt: '2010-02',
+      title: '용인송담대학교',
+      subTitle: '경영정보과 졸업',
+      startedAt: '2012-03',
+      endedAt: '2014-02',
+    },
+    {
+      title: '수도여자고등학교',
+      subTitle: '인문계 졸업',
+      startedAt: '2012-03',
+      endedAt: '2009-02',
     },
   ],
 };

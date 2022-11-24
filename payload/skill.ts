@@ -5,48 +5,12 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
       level: 2,
     },
+    { title: 'AWS', level: 2 },
+    { title: 'Azure', level: 2 },
     {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
-    },
-  ],
-};
-
-const database: ISkill.Skill = {
-  category: 'Database',
-  items: [
-    {
-      title: 'MySQL',
-      level: 3,
-    },
-    {
-      title: 'Oracle',
-      level: 2,
-    },
-    {
-      title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'MongoDB',
+      title: 'Spring Boot',
       level: 1,
     },
   ],
@@ -56,20 +20,36 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
+      title: 'Vue.js',
+      level: 3,
+    },
+    {
+      title: 'Vue Composition-api',
+      level: 3,
+    },
+    {
+      title: 'Nuxt.js',
+      level: 3,
     },
     {
       title: 'React.js',
-      level: 2,
+      level: 3,
     },
     {
-      title: 'javascript',
-      level: 2,
+      title: 'Typescript',
+      level: 3,
+    },
+    {
+      title: 'Javascript',
+      level: 3,
+    },
+    {
+      title: 'Scss',
+      level: 3,
     },
     {
       title: 'HTML/CSS',
-      level: 2,
+      level: 3,
     },
   ],
 };
@@ -81,26 +61,29 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
-      title: 'Vim',
+      title: 'Webpack',
     },
     {
-      title: 'Security',
-    },
-    {
-      title: 'VS Code',
+      title: 'Docker',
     },
     {
       title: 'Jira',
     },
     {
-      title: 'Confluence',
+      title: 'VS Code',
+    },
+    {
+      title: 'DevOps',
+    },
+    {
+      title: 'Git / Github',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, frontend, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

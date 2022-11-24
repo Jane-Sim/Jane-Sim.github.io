@@ -1,12 +1,12 @@
 import { ICommon } from '../common/ICommon';
 
-export declare namespace IEtc {
+export declare namespace IToyProject {
   /**
    * ### Sample Rendering
    *
    * ![image](https://user-images.githubusercontent.com/8033320/78058862-e40b8a80-73c3-11ea-89fe-7d907528ca78.png)
    *
-   * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/etc.ts
+   * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/toyproject.ts
    */
   export interface Payload extends ICommon.Payload {
     /** ### 기타 항목 리스트 */
@@ -19,6 +19,12 @@ export declare namespace IEtc {
 
     /** ### 기타 항목 서브 타이틀 */
     subTitle: string;
+
+    /** ### 링크 */
+    link: string;
+
+    /** ### 링크 제목 */
+    linkTitle: string;
 
     /**
      *  ### 기타 항목 시작 시점

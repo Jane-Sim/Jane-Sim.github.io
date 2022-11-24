@@ -21,7 +21,9 @@ export default function ExperienceRow({
           <i style={Style.gray}>{item.position}</i>
           <ul className="pt-3">
             {item.descriptions.map((description, descIndex) => (
-              <li key={descIndex.toString()}>{description}</li>
+              <li key={descIndex.toString()}>
+                <span>{description}</span>
+              </li>
             ))}
             {createSkillKeywords(item.skillKeywords)}
           </ul>
@@ -36,7 +38,7 @@ function createSkillKeywords(skillKeywords?: string[]) {
     return '';
   }
   return (
-    <li>
+    <div style={{ marginTop: '10px' }}>
       <strong>Skill Keywords</strong>
       <div>
         {skillKeywords.map((keyword, index) => (
@@ -50,7 +52,7 @@ function createSkillKeywords(skillKeywords?: string[]) {
           </Badge>
         ))}
       </div>
-    </li>
+    </div>
   );
 }
 

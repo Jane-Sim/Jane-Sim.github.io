@@ -108,11 +108,11 @@ npm run dev
 - TypeDoc: [IEducation.Payload](https://uyu423.github.io/resume-nextjs/typedoc/interfaces/ieducation.payload.html)
 - TS Sample: [payload/education.ts](https://github.com/uyu423/resume-nextjs/blob/master/payload/education.ts)
 
-#### ETC
+#### Toy Project
 
-- 기타 항목(대회, 자격증, 봉사 등)에 대한 소개 영역
-- TypeDoc: [IEtc.Payload](https://uyu423.github.io/resume-nextjs/typedoc/interfaces/ietc.payload.html)
-- TS Sample: [payload/etc.ts](https://github.com/uyu423/resume-nextjs/blob/master/payload/etc.ts)
+- 기타 항목(대회, 자격증, 봉사 등) 및 개인프로젝트에 대한 소개 영역
+- TypeDoc: [IToyProject.Payload](https://uyu423.github.io/resume-nextjs/typedoc/interfaces/itoyproject.payload.html)
+- TS Sample: [payload/toyproject.ts](https://github.com/uyu423/resume-nextjs/blob/master/payload/toyproject.ts)
 
 #### \_Global
 

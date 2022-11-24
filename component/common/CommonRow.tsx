@@ -3,6 +3,13 @@ import { Row, Col } from 'reactstrap';
 import { IRow } from './IRow';
 import { Style } from './Style';
 import { CommonDescription } from './CommonDescription';
+import { HrefTargetBlank } from '.';
+
+function createLink(payload: IRow.Payload) {
+  const { right } = payload;
+
+  return right.link ? <HrefTargetBlank url={right.link} text={right.linkTitle} /> : '';
+}
 
 export function CommonRows({
   index,
@@ -35,6 +42,7 @@ export function CommonRows({
           ) : (
             ''
           )}
+          {right.link && createLink(payload)}
         </Col>
       </Row>
     </div>
