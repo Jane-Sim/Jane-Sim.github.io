@@ -9,9 +9,9 @@ const experience: IExperience.Payload = {
       position: '웹 클라이언트 개발자',
       startedAt: '2021-07',
       descriptions: [
+        'Voomb 엔터테인먼트 어드민 웹 개발',
+        'Squars 플랫폼 서비스 웹 개발',
         '버넥트 B2B 제품 플랫폼/어드민 웹 개발',
-        'squars 플랫폼 서비스 웹 개발',
-        'voomb 엔터테인먼트 어드민 웹 개발',
         '웹 클라이언트 공통모듈 개발 및 유지보수',
       ],
       skillKeywords: ['vue.js', 'react.js', 'TypeScript', 'Node.js', 'Webpack', 'Docker', 'Azure'],

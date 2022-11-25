@@ -1,14 +1,5 @@
 import { IProject } from '../component/project/IProject';
 
-// {
-//   content: 'Add Foo Feature in 2019',
-//   weight: 'MEDIUM',
-//   descriptions: [
-//     { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-//     { content: 'Integer non turpis ante' },
-//   ],
-// },
-
 const project: IProject.Payload = {
   disable: false,
   list: [
@@ -25,7 +16,9 @@ const project: IProject.Payload = {
           content:
             'azure, githubActions 를 통해 어드민 웹 프로젝트를 dev, staging, production 환경으로 클라우드 배포 및 운영',
         },
-        { content: '회사 내부 팀원들만 사용하며, 전반적인 앱의 옵션을 어드민페이지에서 수정' },
+        {
+          content: '회사 내부 팀원들만 사용하며, 전반적인 앱의 옵션을 어드민페이지에서 수정',
+        },
       ],
     },
     {
@@ -47,16 +40,16 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '버넥트 B2B 제품 플랫폼/어드민 웹 개발',
+      title: '버넥트 B2B 제품 플랫폼 서비스 개발',
       startedAt: '2021-07',
       endedAt: '2021-12',
       where: '버넥트 (Virnect)',
       descriptions: [
         {
           content:
-            'vue.js 로 퍼블릭/프라이빗(구축형) 환경으로 로그인, 홈페이지, 계정관리, 워크스테이션 개발 및 유지보수',
+            'vue.js 로 퍼블릭/프라이빗(구축형) 환경으로 로그인, 홈페이지, 계정관리, 워크스테이션 2.x 버전 개발 및 유지보수',
         },
-        { content: 'LG CNS 등 수주받은 회사들의 커스텀 개발 진행' },
+        { content: '커스텀 개발 진행' },
       ],
     },
     {
