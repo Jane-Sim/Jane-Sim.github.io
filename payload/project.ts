@@ -17,7 +17,7 @@ const project: IProject.Payload = {
             'azure, githubActions 를 통해 어드민 웹 프로젝트를 dev, staging, production 환경으로 클라우드 배포 및 운영',
         },
         {
-          content: '회사 내부 팀원들만 사용하며, 전반적인 앱의 옵션을 어드민페이지에서 수정',
+          content: '전반적인 앱의 옵션설정과 유저관리 기능 개발',
         },
       ],
     },
@@ -29,18 +29,18 @@ const project: IProject.Payload = {
       descriptions: [
         { content: 'vue.js + composition-api + typescript 로 개발' },
         { content: '가입하는/초대받은 사용자의 회원가입/로그인 플로우 웹 개발' },
-        { content: '계정관리에서 사용자가 어카운트 권한 신청 후 라이선스 구매 플로우 개발' },
+        { content: '어카운트 권한신청, 라이선스 구매 플로우 개발' },
         {
           content:
-            '워크스테이션에서 구매한 라이선스로 워크스테이션/워크스페이스 생성 및 사용자 초대 플로우 개발',
+            '구매한 라이선스 기반으로 워크스테이션/워크스페이스 생성 및 사용자 초대 플로우 개발',
         },
         {
-          content: '어드민에서 유저 관리 및 라이선스, 굿즈 등을 관리하는 플로우 개발',
+          content: '어드민에서 유저 관리 및 라이선스, 계좌정보 등을 관리하는 플로우 개발',
         },
       ],
     },
     {
-      title: '버넥트 B2B 제품 플랫폼 서비스 개발',
+      title: '제품 플랫폼 서비스 웹 개발',
       startedAt: '2021-07',
       endedAt: '2021-12',
       where: '버넥트 (Virnect)',
@@ -92,7 +92,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Route53, EC2, RDS, S3, CloudFront 등 설정하며 오코치의 AWS 추가 환경구축 및 유지보수',
+            'Route53, EC2, RDS, S3, CloudFront 등 오코치 서비스의 AWS 인프라 추가 환경구축 및 유지보수',
         },
       ],
     },
