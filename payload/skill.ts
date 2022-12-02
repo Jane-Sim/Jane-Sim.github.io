@@ -51,6 +51,10 @@ const frontend: ISkill.Skill = {
       title: 'HTML/CSS',
       level: 3,
     },
+    {
+      title: 'Webpack',
+      level: 2,
+    },
   ],
 };
 
@@ -61,19 +65,13 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
-      title: 'Webpack',
-    },
-    {
       title: 'Docker',
     },
     {
       title: 'Jira',
     },
     {
-      title: 'VS Code',
-    },
-    {
-      title: 'DevOps',
+      title: 'VSCode',
     },
     {
       title: 'Git / Github',

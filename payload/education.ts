@@ -19,8 +19,8 @@ const education: IEducation.Payload = {
     {
       title: '수도여자고등학교',
       subTitle: '인문계 졸업',
-      startedAt: '2012-03',
-      endedAt: '2009-02',
+      startedAt: '2009-02',
+      endedAt: '2012-03',
     },
   ],
 };
